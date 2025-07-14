@@ -1,0 +1,9 @@
+/.vscode
+/node-module
+/dist
+
+
+* .evn
+.evn
+.evn.*
+
