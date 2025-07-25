@@ -1,7 +1,9 @@
 import dotenv from "dotenv"
 import connectDB from "./db/index.js"
 import app from "./app.js"
+import morgan from "morgan";
 
+app.use(morgan("tiny"))
 dotenv.config({
     path: "./env"
 })
