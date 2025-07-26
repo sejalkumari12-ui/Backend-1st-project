@@ -5,7 +5,7 @@ import morgan from "morgan";
 
 app.use(morgan("tiny"))
 dotenv.config({
-    path: "./env"
+    path: "./.env"
 })
 
 connectDB()

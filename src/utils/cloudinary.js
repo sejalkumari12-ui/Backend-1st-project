@@ -25,4 +25,4 @@ import fs from "fs"
         }
     }
 
-    export {uploadOnCloudinary}
+    export {uploadOneCloudinary}
